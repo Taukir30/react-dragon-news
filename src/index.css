@@ -9,6 +9,7 @@
   default: true;
   --color-primary: #403F3F;
   --color-secondary: #D72050;
+  /* --color-success: #3B25C1; */
   --color-base-200: #F3F3F3;
   --color-base-300: #E7E7E7;
   --color-accent: #706F6F;
@@ -18,3 +19,9 @@
 *{
   font-family: "Poppins", sans-serif;
 }
+
+aside .left-aside .category-holder a.active{
+  @apply bg-[#E7E7E7] text-black
+}
+
+
